@@ -1,1 +1,20 @@
-<p>list-component works!</p>
+<div class="table-comp">
+  <div *ngIf="showList">
+    <table class="table-list">
+      <thead>
+        <tr>
+          <th colspan="2">Our products</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let producto of productos">
+          <td>{{producto.nombre}}</td>
+          <td>$ {{producto.costo}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="button">
+    <button mat-fab color="basic" (click)="showTheList()">Show List</button>
+  </div>
+</div>

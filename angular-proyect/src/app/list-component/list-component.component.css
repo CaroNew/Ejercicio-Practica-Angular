@@ -1,0 +1,35 @@
+table,
+td {
+  border: 2px solid rgb(93 5 12);
+  border-radius: 2%;
+}
+
+thead,
+tfoot {
+  background-color: #ed143d;
+  color: #fff;
+}
+
+.table-list{
+  width: 400px;
+}
+
+
+.button{
+  color: white;
+  flex-wrap:nowrap;
+}
+
+.table-comp{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color:rgb(147 168 245);
+  width: 800px;
+  height: 400px;
+  border: 1px solid #384d81;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
