@@ -1,0 +1,14 @@
+-> cree un nuevo componente llamado list-component
+(el enuciado decía que lo hiciera en el componente 
+principal pero quise poner mas picante a la salsa(?))
+-> cree mi custom type y mi array con elementos (en list-component.ts)
+-> cree una tabla en list-component.html, incluyendo 
+ngFor para recorrer el array
+-> agregue un div para incluir al ngIf con una variable para que mostrara/ocultara
+la lista
+-> agregue una función/metodo showTheList() para cambiar
+el estado de la variable que maneja el mostrar/ocultar lista 
+-> agregué el boton de angular material, con el evento (click) llamando
+al metodo showTheList 
+-> finalmente le dí estilo a mi tabla (en el futuro tomaré un curso
+de diseño para no dejar ciega a mas gente jeje)

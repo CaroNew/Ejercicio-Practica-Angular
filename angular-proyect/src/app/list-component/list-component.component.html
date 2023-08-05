@@ -1,4 +1,6 @@
 <div class="table-comp">
+  <!--condicion que "cambiará de estado"
+    este div-->
   <div *ngIf="showList">
     <table class="table-list">
       <thead>
@@ -7,6 +9,7 @@
         </tr>
       </thead>
       <tbody>
+        <!--recorriendo la lista-->
         <tr *ngFor="let producto of productos">
           <td>{{producto.nombre}}</td>
           <td>$ {{producto.costo}}</td>
@@ -15,6 +18,8 @@
     </table>
   </div>
   <div class="button">
+    <!--mi boton de angular material con el evento que mostrará
+    y ocultará la lista-->
     <button mat-fab color="basic" (click)="showTheList()">Show List</button>
   </div>
 </div>
